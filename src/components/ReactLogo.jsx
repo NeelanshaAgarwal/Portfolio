@@ -1,3 +1,4 @@
+import React from 'react';
 import { Float, useGLTF } from '@react-three/drei'
 
 const ReactLogo = (props) => {
