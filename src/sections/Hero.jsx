@@ -57,7 +57,7 @@ const Hero = () => {
       </div>
       <div className='absolute inset-0 w-full h-full'>
         {/*<Leva />*/}
-        <Canvas className="w-full h-full">
+        <Canvas>
             <Suspense fallback={<CanvasLoader  />}>
             <PerspectiveCamera makeDefault position={[0, 0, 30]} fov={80}/>
             <HeroCamera isSmall={isSmall}>

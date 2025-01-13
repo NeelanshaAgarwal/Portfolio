@@ -15,7 +15,9 @@ const Target = (props) => {
       repeat: -1,
       ease: 'power1.inOut',
     });
-  });
+  },
+  [targetRef]
+);
   
 
   return (
