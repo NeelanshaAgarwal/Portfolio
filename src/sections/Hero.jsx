@@ -9,7 +9,7 @@ import { calculateSizes } from '../constants';
 import Target from '../components/Target.jsx';
 import ReactLogo from '../components/ReactLogo.jsx';
 import Cube from '../components/Cube.jsx';
-import Rings from '../components/rings.jsx';
+import Rings from '../components/Rings.jsx';
 import HeroCamera from '../components/HeroCamera.jsx';
 
 const Hero = () => {
