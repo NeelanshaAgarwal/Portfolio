@@ -1,8 +1,41 @@
-# React + Vite
+# Neelansha Agarwal - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built with Three.js, React.js, and Tailwind CSS. It showcases my skills, achievements, projects, and contact information.
 
-Currently, two official plugins are available:
+## Sections
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Hero Section**:
+  - An interactive 3D scene that introduces me and my profession.
+- **About Section**:
+  - A brief introduction, along with my achievements and tech skills.
+- **Projects Section**:
+  - A list of my key projects, including descriptions and links to GitHub repositories.
+- **Contact Section**:
+  - A contact form and my social media links for reaching out.
+
+  ## Technologies Used
+
+  - React.js
+  - Three.js
+  - Tailwind CSS
+
+  ## Setup
+
+  ### 1. Clone this repository:
+
+  ```bash
+  git clone https://github.com/NeelanshaAgarwal/portfolio-threejs
+  cd portfolio-threejs
+  ```
+
+  ### 2. Install dependencies:
+
+  ```bash
+  npm install
+  ```
+
+  ### 3. Run the development server:
+
+  ```bash
+  npm start
+  ```

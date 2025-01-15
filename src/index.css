@@ -9,6 +9,7 @@
 }
 
 body {
+  -webkit-text-size-adjust: 100%;
   background: #010103;
   font-family: 'General Sans', sans-serif;
 }
@@ -38,9 +39,10 @@ body {
     @apply absolute left-0 right-0 z-20 block mx-auto overflow-hidden transition-all duration-300 ease-in-out bg-black-200 backdrop-blur-sm sm:hidden;
   }
 
-  .text-gray_gradient {
-    @apply bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent;
-  }
+ .text-gray_gradient {
+  @apply bg-gradient-to-r from-[#BEC1CF] via-[#D5D8EA] to-[#D5D8EA] bg-clip-text text-transparent;
+}
+
 
   /* hero section */
   .hero_tag {
@@ -181,8 +183,4 @@ body {
   50% {
     border-color: transparent;
   }
-}
-
-@media (min-resolution: 2dppx) {
-  /* Styles for high DPI screens */
 }

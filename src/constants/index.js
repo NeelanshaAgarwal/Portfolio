@@ -82,7 +82,7 @@ export const navLinks = [
   export const technologies = [
     {
       name: "C++",
-      icon: "./assets/tech_icons/cpp.png",
+      icon: "/assets/tech_icons/cpp.png",
     },
     {
       name: "CSS 3",
@@ -159,6 +159,10 @@ export const navLinks = [
     {
       name: "Three.js",
       icon: "./assets/tech_icons/threejs.png",
+    },
+    {
+      name: "Express.js",
+      icon: "./assets/tech_icons/expressjs.png",
     },
   ];
   
