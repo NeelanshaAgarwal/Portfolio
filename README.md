@@ -2,6 +2,17 @@
 
 This is my personal portfolio website built with Three.js, React.js, and Tailwind CSS. It showcases my skills, achievements, projects, and contact information.
 
+
+## What is Three.js?
+
+[Three.js](https://threejs.org/) is a popular JavaScript library used for creating 3D graphics on the web. It simplifies working with WebGL, allowing developers to render complex 3D scenes, animations, and visual effects with ease. In this portfolio, Three.js powers the 3D elements in the Hero Section and About Section providing an immersive and dynamic experience.
+
+## Live Demo (Works only on Firefox)
+
+🚀 [View Live Portfolio](https://neelansha-portfolio.onrender.com)
+
+⚠ **Browser Compatibility Issue:** Currently, the website only works correctly on Firefox. There is a problem with WebGL contexts in Chrome, which prevents proper rendering. I'm actively working on fixing this issue.
+
 ## Sections
 
 - **Hero Section**:
@@ -39,3 +50,5 @@ This is my personal portfolio website built with Three.js, React.js, and Tailwin
   ```bash
   npm start
   ```
+
+  ### 4. Open `http://localhost:5173` in Firefox.
