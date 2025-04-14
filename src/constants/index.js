@@ -164,6 +164,10 @@ export const navLinks = [
       name: "Express.js",
       icon: "./assets/tech_icons/expressjs.png",
     },
+    {
+      name: "Flask",
+      icon: "./assets/tech_icons/flask.png",
+    },
   ];
   
   export const projects = [
@@ -240,5 +244,95 @@ export const navLinks = [
       ],
       image: "./assets/mern_estate.png",
       source_code_link: "https://github.com/NeelanshaAgarwal/mern-estate",
+    },
+    {
+      title: 'Lung Cancer Detection',
+      desc: 'The Lung Cancer Detection project uses machine learning techniques to predict whether a person is at risk of developing lung cancer based on various medical and lifestyle inputs. It provides a web interface for users to submit their symptoms and receive real-time predictions, promoting early diagnosis and timely medical intervention.',
+      subdesc:
+        'This project leverages Python, Scikit-learn, Matplotlib, Seaborn and Flask to train, visualize and deploy a predictive model using features such as smoking habits, chest pain, coughing, and other symptoms. After evaluating multiple models, Logistic Regression was selected for its superior accuracy. The model is deployed using Flask with a responsive UI built using HTML, and Bootstrap.',
+      tags: [
+        {
+          id: 1,
+          name: 'Python',
+          path: './assets/tech_icons/python.png',
+        },
+        {
+          id: 2,
+          name: 'Numpy',
+          path: './assets/tech_icons/numpy.png',
+        },
+        {
+          id: 3,
+          name: 'Pandas',
+          path: './assets/tech_icons/pandas.png',
+        },
+        {
+          id: 4,
+          name: 'Flask',
+          path: './assets/tech_icons/flask.png',
+        },
+        {
+          id: 5,
+          name: 'Bootstrap',
+          path: './assets/tech_icons/Bootstrap.png',
+        },
+        {
+          id: 6,
+          name: 'Matplotlib',
+          path: './assets/tech_icons/matplotlib.png',
+        },
+        {
+          id: 7,
+          name: 'Scikit-learn',
+          path: './assets/tech_icons/scikitlearn.png',
+        },
+        {
+          id: 8,
+          name: 'Seaborn',
+          path: './assets/tech_icons/seaborn.png',
+        },
+      ],
+      image: "./assets/Lung Cancer Detection.png",
+      source_code_link: "https://github.com/NeelanshaAgarwal/Lung-Cancer-Analysis",
+    },
+    {
+      title: 'Car Price Prediction',
+      desc: 'The Car Price Prediction project leverages machine learning to estimate the price of a car based on features such as fuel type, engine size, horsepower, and dimensions. It focuses on building accurate and interpretable regression models for real-world pricing insights.',
+      subdesc:
+        'This project utilizes Python, Scikit-learn, Pandas, Matplotlib and Seaborn to preprocess data, perform feature engineering, and train multiple regression models including Linear, Ridge, Lasso, Random Forest, and Gradient Boosting. A pipeline structure ensures efficient preprocessing and evaluation. Model performance is compared using RMSE and R² metrics to identify the most effective model.',
+      tags: [
+        {
+          id: 1,
+          name: 'Python',
+          path: './assets/tech_icons/python.png',
+        },
+        {
+          id: 2,
+          name: 'Numpy',
+          path: './assets/tech_icons/numpy.png',
+        },
+        {
+          id: 3,
+          name: 'Pandas',
+          path: './assets/tech_icons/pandas.png',
+        },
+        {
+          id: 4,
+          name: 'Matplotlib',
+          path: './assets/tech_icons/matplotlib.png',
+        },
+        {
+          id: 6,
+          name: 'Scikit-learn',
+          path: './assets/tech_icons/scikitlearn.png',
+        },
+        {
+          id: 7,
+          name: 'Seaborn',
+          path: './assets/tech_icons/seaborn.png',
+        },
+      ],
+      image: "./assets/Car Price Prediction.png",
+      source_code_link: "https://github.com/NeelanshaAgarwal/Car-Price-Prediction",
     },
   ];
